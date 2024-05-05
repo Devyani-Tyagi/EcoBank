@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #33cc33;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Login section styles (if needed) */
+
+.hidden {
+    display: none;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.dashboard-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.dashboard-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.dashboard-item h3 {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #33cc33;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

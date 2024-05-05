@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>EcoBank</h1>
+            <p>Sustainable Banking</p>
+        </header>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Login</button>
+                <a href="#" id="forgot-password">Forgot Password?</a>
+                <a href="#" id="register">New User? Register Here</a>
+            </form>
+        </section>
+
+        <section id="dashboard" class="hidden">
+            <h2>Welcome, [username]!</h2>
+
+            <div class="dashboard-grid">
+                <a href="#">
+                    <div class="dashboard-item">
+                        <img src="icons/balance.svg" alt="View Balance">
+                        <h3>View Balance</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="dashboard-item">
+                        <img src="icons/history.svg" alt="Transaction History">
+                        <h3>Transaction History</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="dashboard-item">
+                        <img src="icons/transfer.svg" alt="Transfer Funds">
+                        <h3>Transfer Funds</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="dashboard-item">
+                        <img src="icons/loan.svg" alt="Loan Application">
+                        <h3>Loan Application</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="dashboard-item">
+                        <img src="icons/investment.svg" alt="Investment Options">
+                        <h3>Investment Options</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="dashboard-item">
+                        <img src="icons/impact.svg" alt="Impact Insights">
+                        <h3>Impact Insights</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="dashboard-item">
+                        <img src="icons/profile.svg" alt="Profile Settings">
+                        <h3>Profile Settings</h3>
+                    </div>
+                </a>
+            </div>
+
+            <button id="logout">Logout</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
